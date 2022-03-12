@@ -51,3 +51,6 @@ console.log(`El área del círculo es: ${areaCirculo}`);
 
 
 console.groupEnd();
+
+
+console.log("Gracias por todo");
