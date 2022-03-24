@@ -54,3 +54,13 @@ console.groupEnd();
 
 
 console.log("Gracias por todo");
+
+
+
+function calcularPerimetroCuadrado(){
+
+}
+
+function calcularAreaCuadrado(){
+
+}
