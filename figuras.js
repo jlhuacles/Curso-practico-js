@@ -40,27 +40,40 @@ function areaCuadrado(lado){
 
 
 // console.groupEnd();
+function validacionTriangulo(){
 
-
-function trianguloIsosceles(ladoA, ladoB, ladoC){
-    validacion = false;
-    if(ladoA==ladoB){
-        return validacion = true;
-    } else if(ladoC==ladoA){
-        return validacion = true;
-    } else if(ladoB==ladoC){
-        return validacion = true;
-    } else{
-        
-    }
-    if(validacion == true){
-
-    }
 }
+
+
+
+
 
 function alturaTriangulo(ladoIgual, base){
-    const altura = Math.sqrt(Math.pow(ladoIgual,2) - Math.pow((base/2),2))
+    const altura = Math.sqrt(Math.pow(ladoIgual,2) - Math.pow((base/2),2));
+    return altura;
 }
+
+function trianguloIsosceles(ladoA, ladoB, ladoC){
+    
+    if(ladoA==ladoB){
+        
+        return alturaTriangulo(ladoA,ladoC);
+        
+        
+    } else if(ladoC==ladoA){
+        return alturaTriangulo(ladoC,ladoB);
+    } else if(ladoB==ladoC){
+        return alturaTriangulo(ladoB,ladoA);
+    } else{
+        return alert("No es un triángulo isósceles");
+    }
+
+    
+    
+}
+
+let triangulonuevo = trianguloIsosceles(5,5,6);
+console.log(triangulonuevo);
 
 
 
