@@ -44,10 +44,6 @@ function validacionTriangulo(){
 
 }
 
-
-
-
-
 function alturaTriangulo(ladoIgual, base){
     const altura = Math.sqrt(Math.pow(ladoIgual,2) - Math.pow((base/2),2));
     return altura;

@@ -7,5 +7,7 @@
 - Primer paso: definir las formas
 - Segundo paso: implementar las fórmulas en JavaScript
 - Tercer paso: Crear funciones
-- Cuarto paso: Integrar Js en HTML5
+- Cuarto paso: Integrar Js en HTML
+
+## Taller #2: Descuentos
 
