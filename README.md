@@ -11,3 +11,9 @@
 
 ## Taller #2: Descuentos
 
+
+## Taller #3: Promedios, Mediana y moda 
+- Primer paso: definir las fórmulas
+- Segundo paso: implementar las fórmulas en JavaScript
+
+- Cuarto paso: Integrar Js en HTML
