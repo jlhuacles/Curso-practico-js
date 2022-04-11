@@ -17,3 +17,6 @@
 - Segundo paso: implementar las fórmulas en JavaScript
 
 - Cuarto paso: Integrar Js en HTML
+
+
+## Taller #4: Salarios, splices.
